@@ -7,6 +7,7 @@ import Polars from './components/polar'
 import DoughNuts from './components/doughnut'
 import Radars from './components/radar';
 import Scatters from './components/scatter'
+import Horizontals from './components/horizontal'
 class App extends Component {
     render() {
         return(
@@ -19,6 +20,7 @@ class App extends Component {
             <DoughNuts />
             <Radars />
             <Scatters />
+            <Horizontals />
             </div>
         )
     }
