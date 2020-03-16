@@ -6,7 +6,7 @@ import Pies from './components/pie'
 import Polars from './components/polar'
 import DoughNuts from './components/doughnut'
 import Radars from './components/radar';
-
+import Scatters from './components/scatter'
 class App extends Component {
     render() {
         return(
@@ -18,6 +18,7 @@ class App extends Component {
             <Polars />
             <DoughNuts />
             <Radars />
+            <Scatters />
             </div>
         )
     }
