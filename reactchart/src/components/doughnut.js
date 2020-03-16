@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
-import { Bar } from 'react-chartjs-2';
+import { Doughnut } from 'react-chartjs-2';
 
-class Charts extends Component {
+class DoughNuts extends Component {
 
     constructor(props) {
         super(props);
@@ -12,11 +12,11 @@ class Charts extends Component {
                     {
                         label : 'hurrey !',
                         data : [
-                            17594,
-                            81045,
-                            303060,
+                            197594,
+                            181045,
+                            153060,
                             106519,
-                            133162,
+                            105162,
                             95072
                         ],
                         backgroundColor: [
@@ -42,19 +42,20 @@ class Charts extends Component {
     render() {
         return(
             <div className="chart">
-            <Bar
+            <Doughnut
             data={this.state.chartData}
             
             options={{ 
+                
                 title : {
                   display : this.props.displayTitle,
-                  text : 'fu** Growth 2019',
+                  text : 'OOO fu**',
                   fontSize : 25
                 },
                 legend : {
                   display : this.props.displayLegend,
                   position: this.props.legendPosition
-                },
+                }
                 
             }}
             />
@@ -63,4 +64,4 @@ class Charts extends Component {
         )
     }
 }
-export default Charts
+export default DoughNuts

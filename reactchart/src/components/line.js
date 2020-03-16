@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import { Bar, Line, Pie } from 'react-chartjs-2';
+import {  Line } from 'react-chartjs-2';
 
 class Lines extends Component {
 
@@ -10,7 +10,7 @@ class Lines extends Component {
                 labels : ['hi', 'hell', 'guy', 'oyees', 'howdy'],
                 datasets : [
                     {
-                        label : 'hurrey !',
+                        label : 'hurrey !!',
                         data : [
                             197594,
                             181045,
@@ -62,4 +62,4 @@ class Lines extends Component {
         )
     }
 }
-export default Lines
+export default Lines;
