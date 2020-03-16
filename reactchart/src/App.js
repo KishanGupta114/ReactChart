@@ -8,6 +8,10 @@ import DoughNuts from './components/doughnut'
 import Radars from './components/radar';
 import Scatters from './components/scatter'
 import Horizontals from './components/horizontal'
+import Doughnutss from './components/dynamicDoughnut'
+import DynamicBars from './components/dynamicBar'
+
+
 class App extends Component {
     render() {
         return(
@@ -21,6 +25,8 @@ class App extends Component {
             <Radars />
             <Scatters />
             <Horizontals />
+            <Doughnutss />
+            <DynamicBars />
             </div>
         )
     }
