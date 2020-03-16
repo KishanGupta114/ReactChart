@@ -11,6 +11,7 @@ import Horizontals from './components/horizontal'
 import Doughnutss from './components/dynamicDoughnut'
 import DynamicBars from './components/dynamicBar'
 import DynamicLines from './components/dynamicLine'
+import OnlyLines from './components/onlyLine'
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
             <Doughnutss />
             <DynamicBars />
             <DynamicLines />
+            <OnlyLines />
             </div>
         )
     }
